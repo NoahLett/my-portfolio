@@ -8,5 +8,6 @@
 
 body {
   color: #fff;
-  background-color: #050230;
+  background: linear-gradient(to bottom, #050230, #030115);
+  min-height: 100vh;
 }

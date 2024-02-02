@@ -1,0 +1,79 @@
+.hero-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.hero-content {
+    flex: 1;
+}
+
+.hero-content h2 {
+    font-size: 3.75rem;
+    font-weight: 600;
+    line-height: 5rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    width: 80%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+.hero-img {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 5rem;
+}
+
+.hero-img > div > img {
+    width: 25rem;
+    transition: all 0.2s ease;
+}
+
+.upper-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.tech-icon {
+    font-size: 3.5rem;
+    width: 5rem;
+    height: 5rem;
+}
+
+.tech-icon i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease;
+}
+
+.tech-icon i:hover {
+    transform: translateY(-0.5rem);
+}
+
+.head-shot {
+    border-radius: 2rem;
+    box-shadow: 5px 5px 5px black;
+}
+

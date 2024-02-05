@@ -1,15 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Stack.css';
 import StackCard from './StackCard/StackCard';
-import { STACK } from '../../utils/stackData';
+import { STACK } from '../../utils/data';
+import StackInfoCard from './StackInfoCard/StackInfoCard';
 
 const Stack = () => {
 
-  console.log(STACK);
+  const [selectedStack, setSelectedStack] = useState(STACK[0]);
+
+  const handleSelectStack = (data) => {
+    setSelectedStack(data);
+  };
 
   return (
     <section className='stack-container'>
-        <h5>Technical Proficiency &amp; Stack</h5>
+        <h5>Technical Skills &amp; Stack</h5>
         <div className='stack-content'>
             <div className='stack'>
               {
@@ -18,13 +23,22 @@ const Stack = () => {
                     <StackCard 
                       key={item.title}
                       title={item.title}
-                      iconUrl={item.icon} 
+                      iconUrl={item.icon}
+                      isActive={selectedStack.title === item.title}
+                      onClick={() => {
+                        handleSelectStack(item);
+                      }} 
                     />
                   )
                 })
               }
             </div>
-            <div className='stack-info'></div>
+            <div className='stack-info'>
+              <StackInfoCard 
+                heading={selectedStack.title}
+                stack={selectedStack.skills}
+              />
+            </div>
         </div>
     </section>
   )

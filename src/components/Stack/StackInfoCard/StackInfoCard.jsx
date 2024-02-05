@@ -9,7 +9,7 @@ const StackInfoCard = ({ heading, stack }) => {
             {
                 stack.map((item, index) => {
                     return (
-                        <React.Fragment key={`stack_${index}`}>
+                        <div key={`stack_${index}`}>
                             <div className='stack-info'>
                                 <p>{item.skill}</p>
                                 <p className='percentage'>{item.percentage}</p>
@@ -19,7 +19,7 @@ const StackInfoCard = ({ heading, stack }) => {
                                 <div className='stack-progress' style={{width: item.percentage}} />
                             </div>
 
-                        </React.Fragment>
+                        </div>
                     )
                 })
             }

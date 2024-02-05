@@ -26,7 +26,8 @@ const Hero = () => {
               </div>
             </div>
             <img className='head-shot' src='src/assets/images/Julian-47-2.jpeg' alt='Head Shot' />
-            <div className='row'>
+          </div>
+          <div className='row'>
               <div className='tech-icon'>
                 <i className="devicon-nodejs-plain colored"></i>
               </div>
@@ -40,7 +41,6 @@ const Hero = () => {
                 <i className="devicon-mongodb-plain colored"></i>
               </div>
             </div>
-          </div>
           </div>
     </section>
   )

@@ -48,7 +48,7 @@ export const STACK = [
             { skill: 'Work Ethic', percentage: '90%' },
             { skill: 'Desire to Learn', percentage: '95%' },
             { skill: 'Attention to Detail', percentage: '80%' },
-            { skill: 'Interpersonal Communication', percentage: '90%' },
+            { skill: 'Discipline', percentage: '90%' },
         ],
     },
 ];
@@ -57,30 +57,34 @@ export const EXPERIENCE = [
     {
         title: 'Frontend Developer',
         company: 'Sports Warehouse, Inc.',
-        location: 'San Luis Obispo, CA (On Site)',
+        location: 'San Luis Obispo, CA',
         date: 'May 2023 - Present',
         responsibilities: [
-
+            'Proficiently executed a comprehensive overhaul of Tennis Warehouse\'s customer service portal and associated pages using JavaScript to enhance user experience, navigation, and overall functionality',
+            'Collaborated cross-functionally with Graphics and Digital Marketing teams to strategically modularize Sports Warehouse\'s promotional emailing internal applications framework',
+            'Integrated diverse product category filters by employing PHP to dynamically generate minified JSON from configuration files. Leveraged this JSON data within a React application to craft an interactive, multi-faceted filtering system, enhancing user experience within the ecommerce site.',
         ],
     },
     {
         title: 'Full-Stack Development Intern',
         company: 'Letter Perfect Properties',
-        location: 'Mission Viejo, CA (Remote)',
+        location: 'Mission Viejo, CA',
         date: 'March 2023 - May 2023',
         responsibilities: [
             'Assisted in elevating the user experience of an internal-use property management application by aiding in the creation of responsive and state-driven React frontend components',
             'Contributed to a secure RESTful API in Node/Express, seamlessly unifying user account creation, login functionality, and the secure storage of profile data',
-            'Aided in the implementation of a Redux store and various slices associated with the user login functionality'
+            'Aided in the implementation of a Redux store and various slices associated with the user login functionality',
         ],
     },
     {
         title: 'Realtor & Escrow Professional',
         company: 'Atlas Title Company',
-        location: 'Irvine, CA (Remote)',
+        location: 'Irvine, CA',
         date: 'September 2020 - October 2022',
         responsibilities: [
-
+            'Spearheaded the start-up\'s Payoffs Department, training several others in loan servicing data acquisition',
+            'Coordinated with others on a twelve-person team, forming a highly-efficient escrow closing process',
+            'Managed a high profile lender account, closing hundreds of refinance and home equity loans from start to finish',
         ],
     },
 ]

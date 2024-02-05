@@ -1,6 +1,7 @@
 import './App.css';
 import Hero from './components/Hero/Hero';
 import Navbar from './components/Navbar/Navbar';
+import Stack from './components/Stack/Stack';
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <div className='container'>
         <Hero />
+        <Stack />
       </div>
     </>
   )

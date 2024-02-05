@@ -1,0 +1,100 @@
+.stack-container {
+    margin: 3rem 0;
+    position: relative;
+}
+
+.stack-container::after,
+.stack-container::before {
+    content: ' ';
+    width: 28rem;
+    height: 28rem;
+    border-radius: 28.125rem;
+    background: #61bfe7;
+    position: absolute;
+    z-index: -1;
+    filter: blur(200px);
+}
+
+.stack-container::after {
+    top: -3rem;
+    left: -5rem;
+}
+
+.stack-container::before {
+    background: #5b95b3;
+    bottom: 0rem;
+    right: 0rem;
+
+}
+
+.stack-container {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 3.5rem;
+}
+
+.stack-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 3;
+    margin-top: 3rem;
+}
+
+.stack {
+    flex: 1;
+    display: grid;
+    gap: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.stack-info {
+    flex: 1;
+}
+
+@media (max-width: 1025px) {
+    .stack {
+        padding-left: 1rem;
+    }
+
+    .stack,
+    .stack-content {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+}
+
+@media (max-width: 868px) {
+    .stack-content {
+        flex-direction: column-reverse;
+        gap: 3rem;
+    }
+
+    .stack,
+    .stack-info {
+        width: 100%;
+        margin: 0;
+    }
+
+    .stack-container h5 {
+        font-size: 1.3rem;
+        margin-bottom: 2rem;
+    }
+
+    .stack-container::after,
+    .stack-container::before {
+        width: 18rem;
+        height: 18rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .stack-container {
+        padding: 0;
+        margin: 2rem 0;
+    }
+    .stack-content {
+        margin: 0;
+    }
+}

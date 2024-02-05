@@ -1,0 +1,28 @@
+.stack-container {
+    margin: 4rem 0;
+    position: relative;
+}
+
+.stack-container {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 3.5rem;
+}
+
+.stack-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 3;
+    margin-top: 3rem;
+}
+
+.stack {
+    flex: 1;
+    display: grid;
+    grid-gap: 3rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.stack-info {
+    flex: 1;
+}

@@ -13,7 +13,7 @@ const Stack = () => {
   };
 
   return (
-    <section className='stack-container'>
+    <section id='stack' className='stack-container'>
         <h5>Technical Skills &amp; Stack</h5>
         <div className='stack-content'>
             <div className='stack'>

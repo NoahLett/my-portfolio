@@ -2,6 +2,14 @@ import React from 'react';
 import './MobileNav.css';
 
 const MobileNav = ({ isOpen, toggleMenu }) => {
+
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+  };
+
   return (
     <>
       <div className={`mobile-menu ${isOpen ? 'active' : ''}`} onClick={toggleMenu}>
@@ -9,19 +17,19 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
             <h1 className='mobilenav-title'>Noah Lett</h1>
             <ul>
                 <li>
-                    <a className='menu-item'>Home</a>
+                    <a className='menu-item' onClick={() => scrollToSection('home')}>Home</a>
                 </li>
                 <li>
-                    <a className='menu-item'>Stack</a>
+                    <a className='menu-item' onClick={() => scrollToSection('stack')}>Stack</a>
                 </li>
                 <li>
-                    <a className='menu-item'>Work Experience</a>
+                    <a className='menu-item' onClick={() => scrollToSection('experience')}>Work Experience</a>
                 </li>
                 <li>
-                    <a className='menu-item'>Contact Me</a>
+                    <a className='menu-item' onClick={() => scrollToSection('projects')}>My Projects</a>
                 </li>
 
-                <button className='contact-btn' onClick={()=> {}}>Click Me</button>
+                <button className='contact-btn' onClick={()=> scrollToSection('contact')}>Contact Me</button>
             </ul>
         </div>
       </div>  

@@ -9,3 +9,23 @@
     margin-bottom: 3rem;
 }
 
+.arrow-right,
+.arrow-left {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #61bfe7;
+    position: absolute;
+    top: 55%;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.arrow-left {
+    left: -2rem;
+}
+
+.arrow-right {
+    right: -2rem;
+}

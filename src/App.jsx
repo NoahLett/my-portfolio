@@ -1,4 +1,5 @@
 import './App.css';
+import ContactMe from './components/ContactMe/ContactMe';
 import Experience from './components/Experience/Experience';
 import Hero from './components/Hero/Hero';
 import Navbar from './components/Navbar/Navbar';
@@ -13,6 +14,7 @@ function App() {
         <Hero />
         <Stack />
         <Experience />
+        <ContactMe />
       </div>
     </>
   )

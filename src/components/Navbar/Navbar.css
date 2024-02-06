@@ -63,7 +63,7 @@
     justify-content: center;
     color: white;
     background: linear-gradient(90deg, #5b95b3 0%, #61bfe7 100%);
-    padding: 0.6rem 2rem;
+    padding: 0.6rem 1.5rem;
     border: none;
     outline: 1.5px solid transparent;
     border-radius: 0.2rem;
@@ -109,6 +109,10 @@
 
     .nav-content ul {
         display: none;
+    }
+
+    .contact-btn {
+        max-width: 20rem;
     }
 }
 

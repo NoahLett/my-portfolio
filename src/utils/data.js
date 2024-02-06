@@ -60,9 +60,9 @@ export const EXPERIENCE = [
         location: 'San Luis Obispo, CA',
         date: 'May 2023 - Present',
         responsibilities: [
-            'Proficiently executed a comprehensive overhaul of Tennis Warehouse\'s customer service portal and associated pages using JavaScript to enhance user experience, navigation, and overall functionality',
-            'Collaborated cross-functionally with Graphics and Digital Marketing teams to strategically modularize Sports Warehouse\'s promotional emailing internal applications framework',
-            'Integrated diverse product category filters by employing PHP to dynamically generate minified JSON from configuration files. Leveraged this JSON data within a React application to craft an interactive, multi-faceted filtering system, enhancing user experience within the ecommerce site.',
+            'Revamped Tennis and Pickleball Warehouses\' customer service portals using JavaScript and Bootstrap, enhancing user experience, navigation, and functionality.',
+            'Collaborated cross-functionally to modularize Sports Warehouse\'s promotional emailing framework, working with Graphics and Digital Marketing teams.',
+            'Implemented a dynamic product category filtering system within a React application, leveraging PHP to generate minified JSON, which significantly enhanced filtering capabilities.',
         ],
     },
     {
@@ -82,9 +82,9 @@ export const EXPERIENCE = [
         location: 'Irvine, CA',
         date: 'September 2020 - October 2022',
         responsibilities: [
-            'Spearheaded the start-up\'s Payoffs Department, training several others in loan servicing data acquisition',
-            'Coordinated with others on a twelve-person team, forming a highly-efficient escrow closing process',
-            'Managed a high profile lender account, closing hundreds of refinance and home equity loans from start to finish',
+            'Established and led the Payoffs Department at the startup, providing comprehensive training to team members in loan servicing data acquisition.',
+            'Seamlessly coordinated with others on a twelve-person team, forming a highly-efficient escrow closing process',
+            'Successfully managed a high-profile lender account, overseeing the end-to-end closing process for hundreds of refinance and home equity loans.',
         ],
     },
 ]

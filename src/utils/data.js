@@ -87,4 +87,21 @@ export const EXPERIENCE = [
             'Successfully managed a high-profile lender account, overseeing the end-to-end closing process for hundreds of refinance and home equity loans.',
         ],
     },
-]
+];
+
+export const PROJECTS = [
+    {
+        name: 'CooksCabinet',
+        deployed: true,
+        icon: '/images/chef-hat.png',
+        link: 'https://cookscabinet.vercel.app',
+        bgColor: '#FF7F7F',
+        stack: [
+            { framework: 'Next 14'},
+            { authentication: 'NextAuth' },
+            { stateManagement: 'Redux Toolkit' },
+            { styling: 'Tailwind CSS' },
+            { database: 'PostgreSQL with Prisma' },
+        ] 
+    },
+];

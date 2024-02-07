@@ -30,5 +30,23 @@
     background: #5b95b3;
     bottom: 0rem;
     right: 0rem;
+}
 
+.projects-content {
+    display: flex;
+    gap: 3;
+    margin-top: 3rem;
+}
+
+.projects {
+    flex: 1;
+    display: grid;
+    gap: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.project-info {
+    flex: 1;
 }

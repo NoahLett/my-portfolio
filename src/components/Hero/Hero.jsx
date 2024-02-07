@@ -25,7 +25,7 @@ const Hero = () => {
                 <i className="devicon-css3-plain colored"></i>
               </div>
             </div>
-            <img className='head-shot' src='src/assets/images/Julian-47-2.jpeg' alt='Head Shot' />
+            <img className='head-shot' src='/images/Julian-47-2.jpeg' alt='Head Shot' />
           </div>
           <div className='row'>
               <div className='tech-icon'>

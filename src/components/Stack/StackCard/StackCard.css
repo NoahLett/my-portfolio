@@ -7,10 +7,13 @@
     backdrop-filter: blur(1rem);
     position: relative;
     cursor: pointer;
-    transition: all 0.2s ease;
+    transition: all 0.2s linear;
 }
 
-.stack-card:hover,
+.stack-card:hover:not(.active) {
+    background: rgba(27, 27, 84, 0.398);
+}
+
 .active {
     background: linear-gradient(180deg, #5b95b3 0%, #61bfe7 100%);
 }

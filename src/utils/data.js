@@ -1,7 +1,7 @@
 export const STACK = [
     {
         title: 'Frontend',
-        icon: '/src/assets/images/designer.png',
+        icon: '/images/designer.png',
         skills: [
             { skill: 'React', percentage: '85%' },
             { skill: 'Next 14', percentage: '72%' },
@@ -14,7 +14,7 @@ export const STACK = [
     },
     {
         title: 'Backend',
-        icon: '/src/assets/images/server.png',
+        icon: '/images/server.png',
         skills: [
             { skill: 'Node', percentage: '80%' },
             { skill: 'Express', percentage: '80%' },
@@ -27,7 +27,7 @@ export const STACK = [
     },
     {
         title: 'Tools',
-        icon: '/src/assets/images/setting.png',
+        icon: '/images/setting.png',
         skills: [
             { skill: 'Github', percentage: '80%'},
             { skill: 'Figma', percentage: '75%' },
@@ -40,7 +40,7 @@ export const STACK = [
     },
     {
         title: 'Soft Skills',
-        icon: '/src/assets/images/team.png',
+        icon: '/images/team.png',
         skills: [
             { skill: 'Interpersonal Communication', percentage: '92%' },
             { skill: 'Working in Teams', percentage: '90%' },

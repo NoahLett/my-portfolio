@@ -10,7 +10,7 @@ const ProjectCard = ({ name, deployed, iconUrl, link, onClick, isActive, bgColor
         <div className='project-name'>
             <p>{name}</p>
         </div>
-        {deployed ? <a className='project-link' href={link} target='_blank'>View Live</a> : <span>In Development</span>}
+        {deployed ? <a className='project-link' href={link} target='_blank'>View Live</a> : <span className='project-link'>In Development</span>}
     </div>
   )
 }

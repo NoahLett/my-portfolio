@@ -96,26 +96,37 @@ export const PROJECTS = [
         icon: '/images/chef-hat.png',
         link: 'https://cookscabinet.vercel.app',
         bgColor: '#FF7F7F',
+        description: [
+            { title: 'Recipe Submission and Admin Review', text: 'Implemented a user-friendly recipe submission system with admin review, showcasing attention to detail in managing user-generated content'},
+            { title: 'Dynamic Recipe Exploration', text: 'Designed an engaging frontend for recipe exploration, including search and filter functionality for faster navigation'},
+            { title: 'Smart Shopping Lists', text: 'Engineered algorithmic logic within the various actions of Redux slices for personalized shopping lists managed by global state'},
+            { title: 'User Authentication', text: 'Implemented role-based authentication by leveraging NextAuth\'s Providers option, enhancing data security and allowing for admin roles'},
+            { title: 'Multi-Table Database', text: 'Utilized PostgreSQL database and Prisma ORM for efficient data management, ensuring scalability and reliability for seamless user experiences'},
+            { title: 'Intuitive User Interface', text: 'Showcases a well-designed and intuitive interface emphasizing my focus on user experience, from navigation to visual appeal' },
+        ],
         stack: [
-            { framework: 'Next 14'},
-            { authentication: 'NextAuth' },
-            { stateManagement: 'Redux Toolkit' },
-            { styling: 'Tailwind CSS' },
-            { database: 'PostgreSQL with Prisma' },
+            { title: 'Framework', option: 'Next 14' },
+            { title: 'Authentication', option: 'NextAuth' },
+            { title: 'State Management', option: 'Redux Toolkit' },
+            { title: 'Styling', option: 'Tailwind CSS' },
+            { title: 'Database', option: 'PostgreSQL with Prisma' },
         ] 
     },
     {
-        name: 'BookWorm',
+        name: 'BookWorm 2.0',
         deployed: false,
         icon: '/images/caterpillar.png',
         link: '',
         bgColor: '#add8e6',
+        description: [
+            {}
+        ],
         stack: [
-            { framework: 'React'},
-            { authentication: 'JWT and Bcrypt' },
-            { stateManagement: 'Redux Toolkit' },
-            { styling: 'Bootstrap' },
-            { database: 'MongoDB' },
+            { title: 'Framework', option: 'React' },
+            { title: 'Authentication', option: 'JWT and Bcrypt' },
+            { title: 'State Management', option: 'Redux Toolkit' },
+            { title: 'Styling', option: 'Bootstrap' },
+            { title: 'Database', option: 'MongoDB' },
         ] 
     },
 ];

@@ -8,6 +8,7 @@
     position: relative;
     cursor: pointer;
     transition: all 0.2s linear;
+    margin: 1.75rem;
 }
 
 .project-icon {

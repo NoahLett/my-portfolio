@@ -104,4 +104,18 @@ export const PROJECTS = [
             { database: 'PostgreSQL with Prisma' },
         ] 
     },
+    {
+        name: 'BookWorm',
+        deployed: false,
+        icon: '/images/caterpillar.png',
+        link: '',
+        bgColor: '#add8e6',
+        stack: [
+            { framework: 'React'},
+            { authentication: 'JWT and Bcrypt' },
+            { stateManagement: 'Redux Toolkit' },
+            { styling: 'Bootstrap' },
+            { database: 'MongoDB' },
+        ] 
+    },
 ];

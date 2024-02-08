@@ -40,11 +40,9 @@
 
 .projects {
     flex: 1;
-    display: grid;
-    gap: 3rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-direction: column;
+    margin: 0 3rem;
 }
 
 .project-info {

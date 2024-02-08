@@ -6,26 +6,27 @@ const ProjectInfoCard = ({ name, stack, description }) => {
     <div className='project-info-card'>
         <h6>{name}</h6>
         <div className='project-info-content'>
+            <p className='project-stack-header'>Tech Specs</p>
             {
                 stack.map((item, index) => {
                     return (
                         <div key={`stack_${index}`}>
-                            <div className='stack-info'>
-                                <span>{item.title}</span>
-                                <span>{item.option}</span>
+                            <div className='project-stack-info'>
+                                <span className='project-stack-info-title'>{item.title}</span>
+                                <span className='project-stack-info-option'>{item.option}</span>
                             </div>
                         </div>
                     )
                 })
             }
             <div className='description-section'>
-                <p>Project Details</p>
+                <p className='description-header'>Project Details</p>
                 {
                     description.map((item, index) => {
                         return (
-                            <div key={`description_${index}`}>
-                                <div className='description-info'>
-                                    <span>{item.title}</span>
+                            <div className='description-item' key={`description_${index}`}>
+                                <p className='description-item-title'>{item.title}</p>
+                                <div className='description-item-text'>
                                     <span>{item.text}</span>
                                 </div>
                             </div>

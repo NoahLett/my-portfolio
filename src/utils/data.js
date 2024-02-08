@@ -119,7 +119,12 @@ export const PROJECTS = [
         link: '',
         bgColor: '#add8e6',
         description: [
-            {}
+            { title: 'Component-based Navigation', text: 'Crafting an engaging and responsive user interface using React, which will allow users to view posts, sales, and communicate with other users seamlessly' },
+            { title: 'Full-Stack Integration', text: 'Implementing a robust backend infrastructure with Node.js and Express which will integrate user authentication, CRUD functionality, and the use of MongoDB for data storage' },
+            { title: 'Responsive UI/UX', text: 'Incorporating Bootstrap for sleek and mobile-friendly styling, enhancing the visual appeal and accessibility of the application' },
+            { title: 'User Content CRUD Functionality', text: 'Enabling users to create, update, read, and delete two types of posts - "Book Wanted" and "Book to Sell," fostering a diverse and dynamic marketplace for textbook transactions'},
+            { title: 'Efficient State Management', text: 'Utilizing Redux for efficient global state management, ensuring real-time updates and a cohesive user experience throughout the application'},
+            { title: 'User Messaging System', text: 'Implementing a Firebase messaging system, allowing users to seamlessly communicate for negotiating prices, discussing shipping details, and facilitating a smooth exchange process' },
         ],
         stack: [
             { title: 'Framework', option: 'React' },

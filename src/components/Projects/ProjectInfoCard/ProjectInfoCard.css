@@ -1,0 +1,58 @@
+.project-info-card {
+    min-height: 23rem;
+    width: 100%;
+    border-radius: 0.65rem;
+    border: 1px solid #61bfe7;
+    background: rgba(22, 17, 47, 0.398);
+    backdrop-filter: blur(1rem);
+}
+
+.project-info-card h6 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0.8rem 2rem;
+    background: linear-gradient(180deg, #5b95b3 0%, #61bfe7 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-bottom: 1px solid #61bfe7;
+}
+
+.project-info-content {
+    padding: 2rem;
+}
+
+.project-stack-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-stack-info-title {
+    font-weight: 500;
+}
+
+.description-section {
+    margin-top: 1.5rem;
+}
+
+.project-stack-header,
+.description-header {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.description-item {
+    margin: 0.75rem 0;
+}
+
+.description-item-title {
+    font-weight: 500;
+    font-style: italic;
+}
+
+.description-item-text {
+    margin-left: 0.5rem;
+}
+
+

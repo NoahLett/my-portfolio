@@ -8,7 +8,15 @@
     position: relative;
     cursor: pointer;
     transition: all 0.2s linear;
-    margin: 1.75rem;
+    margin: 1.75rem 0;
+}
+
+.project-card:hover:not(.active) {
+    background: rgba(27, 27, 84, 0.398);
+}
+
+.active {
+    background: linear-gradient(180deg, #5b95b3 0%, #61bfe7 100%);
 }
 
 .project-icon {
@@ -42,5 +50,31 @@
 }
 
 .project-link:hover {
-    color: #61bfe7;
+    color: #4a7ab1;
+}
+
+@media (max-width: 1025px) {
+    .project-card {
+        padding: 2rem;
+    }
+
+    .project-icon {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .icon-image {
+        width: 3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .project-name {
+        font-size: 1.25rem;
+    }
+
+    .in-development,
+    .project-link {
+        font-size: 0.9rem;
+    }
 }

@@ -37,10 +37,10 @@ const ContactForm = () => {
       <ToastContainer />
         <form ref={form} onSubmit={sendEmail}>
             <div className="name-container">
-                <input type="text" name="user_name" placeholder='Your Name' />
+                <input type="text" name="user_name" placeholder='Your Name' required />
             </div>
-            <input type="email" name='user_email' placeholder='example@email.com' />
-            <textarea name="message" placeholder='Message' rows={3} />
+            <input type="email" name='user_email' placeholder='example@email.com' required/>
+            <textarea name="message" placeholder='Message' rows={3} required/>
 
             <button>Send</button>
         </form>

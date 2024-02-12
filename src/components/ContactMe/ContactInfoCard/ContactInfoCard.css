@@ -32,4 +32,9 @@
     font-weight: 400;
     text-decoration: none;
     color: white;
+    transition: all 0.2s ease;
+}
+
+.contact-details-card a:hover {
+    color: #4a7ab1;
 }

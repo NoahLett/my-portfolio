@@ -113,6 +113,24 @@ export const PROJECTS = [
         ] 
     },
     {
+        name: 'NoahLett (This app)',
+        deployed: true,
+        icon: '/images/black-hole.png',
+        link: '#',
+        bgColor: '#061441',
+        description: [
+            { title: 'Brief Overview', text: 'Designed a single-page portfolio application to showcase my expertise, work experience, personal applications, and a means of getting in contact.' },
+            { title: 'Full-Stack Integration', text: 'Implementing a robust backend infrastructure with Node.js and Express which will integrate user authentication, CRUD functionality, and the use of MongoDB for data storage' },
+            { title: 'Responsive UI/UX', text: 'Included multiple media queries for each component, ensuring a smooth and appealing view independent of breakpoints or choice in device' },
+            { title: 'Messaging System', text: 'Implementing a Firebase messaging system, allowing users to seamlessly communicate for negotiating prices, discussing shipping details, and facilitating a smooth exchange process' },
+        ],
+        stack: [
+            { title: 'Framework', option: 'React' },
+            { title: 'Styling', option: 'Custom CSS' },
+            { title: 'Messaging', option: 'EmailJS' },
+        ] 
+    },
+    {
         name: 'BookWorm 2.0',
         deployed: false,
         icon: '/images/caterpillar.png',
@@ -132,6 +150,27 @@ export const PROJECTS = [
             { title: 'State Management', option: 'Redux Toolkit' },
             { title: 'Styling', option: 'Bootstrap' },
             { title: 'Database', option: 'MongoDB' },
+        ] 
+    },
+    {
+        name: 'BrewBase',
+        deployed: true,
+        icon: '/images/cheers.png',
+        link: 'https://noahlett.github.io/beer-base/#',
+        bgColor: '#add8e6',
+        description: [
+            { title: 'Component-based Navigation', text: 'Crafting an engaging and responsive user interface using React, which will allow users to view posts, sales, and communicate with other users seamlessly' },
+            { title: 'Full-Stack Integration', text: 'Implementing a robust backend infrastructure with Node.js and Express which will integrate user authentication, CRUD functionality, and the use of MongoDB for data storage' },
+            { title: 'Responsive UI/UX', text: 'Incorporating Bootstrap for sleek and mobile-friendly styling, enhancing the visual appeal and accessibility of the application' },
+            { title: 'User Content CRUD Functionality', text: 'Enabling users to create, update, read, and delete two types of posts - "Book Wanted" and "Book to Sell," fostering a diverse and dynamic marketplace for textbook transactions'},
+        ],
+        stack: [
+            { title: 'Framework', option: 'JQuery' },
+            { title: 'External API', option: 'https://api.punkapi.com/v2/beers' },
+            { title: 'Data Fetching', option: 'XHR/XMLHttpRequest' },
+            { title: 'Filters', option: 'Custom JS' },
+            { title: 'Styling', option: 'Custom CSS' },
+            { title: 'User Features', option: 'CRUD' },
         ] 
     },
 ];

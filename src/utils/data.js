@@ -119,10 +119,10 @@ export const PROJECTS = [
         link: '#',
         bgColor: '#061441',
         description: [
-            { title: 'Brief Overview', text: 'Designed a single-page portfolio application to showcase my expertise, work experience, personal applications, and a means of getting in contact.' },
-            { title: 'Full-Stack Integration', text: 'Implementing a robust backend infrastructure with Node.js and Express which will integrate user authentication, CRUD functionality, and the use of MongoDB for data storage' },
+            { title: 'Brief Overview', text: 'Designed a single-page portfolio application to showcase my expertise, work experience, personal applications, and a means of getting in contact' },
+            { title: 'Visual Design', text: 'Modularized CSS to be component-oriented and recycled rules between various sections to ensure proper continuity of style and functionality' },
             { title: 'Responsive UI/UX', text: 'Included multiple media queries for each component, ensuring a smooth and appealing view independent of breakpoints or choice in device' },
-            { title: 'Messaging System', text: 'Implementing a Firebase messaging system, allowing users to seamlessly communicate for negotiating prices, discussing shipping details, and facilitating a smooth exchange process' },
+            { title: 'Messaging System', text: 'Integrated an email messaging system using EmailJS for streamlined and simple communication.' },
         ],
         stack: [
             { title: 'Framework', option: 'React' },
@@ -159,10 +159,10 @@ export const PROJECTS = [
         link: 'https://noahlett.github.io/beer-base/#',
         bgColor: '#D3D3D3',
         description: [
-            { title: 'Component-based Navigation', text: 'Crafting an engaging and responsive user interface using React, which will allow users to view posts, sales, and communicate with other users seamlessly' },
-            { title: 'Full-Stack Integration', text: 'Implementing a robust backend infrastructure with Node.js and Express which will integrate user authentication, CRUD functionality, and the use of MongoDB for data storage' },
-            { title: 'Responsive UI/UX', text: 'Incorporating Bootstrap for sleek and mobile-friendly styling, enhancing the visual appeal and accessibility of the application' },
-            { title: 'User Content CRUD Functionality', text: 'Enabling users to create, update, read, and delete two types of posts - "Book Wanted" and "Book to Sell," fostering a diverse and dynamic marketplace for textbook transactions'},
+            { title: 'Conditional HTML Views', text: 'HTML sections are conditionally rendered and controlled by JavaScript functions responsible for setting which view the user wishes to access.' },
+            { title: 'External API Integration', text: 'Incorporated ajax requests to an external API containing beer brewing recipes, allowing users to view a wide range of options' },
+            { title: 'Custom Filtering', text: 'Users can view the details and instructions from a wide array of beer brewing recipes and filter their options based on ABV or IBU units' },
+            { title: 'User Content CRUD Functionality', text: 'Users can submit, edit, read, and delete posts with an image of the beer batch they\'re currently brewing'},
         ],
         stack: [
             { title: 'Framework', option: 'JQuery' },

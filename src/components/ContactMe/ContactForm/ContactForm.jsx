@@ -1,6 +1,8 @@
 import React, { useRef } from 'react';
 import './ContactForm.css';
 import emailjs from '@emailjs/browser';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const ContactForm = () => {
 
@@ -21,15 +23,18 @@ const ContactForm = () => {
         () => {
           console.log('SUCCESS!');
           e.target.reset();
+          toast.success('Message Sent!');
         },
         (error) => {
           console.log('FAILED...', error.text);
+          toast.error('Failed to Send. Please Try Again.')
         },
       );
   };
 
   return (
     <div className='contact-form-content'>
+      <ToastContainer />
         <form ref={form} onSubmit={sendEmail}>
             <div className="name-container">
                 <input type="text" name="user_name" placeholder='Your Name' />

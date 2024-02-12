@@ -157,7 +157,7 @@ export const PROJECTS = [
         deployed: true,
         icon: '/images/cheers.png',
         link: 'https://noahlett.github.io/beer-base/#',
-        bgColor: '#add8e6',
+        bgColor: '#D3D3D3',
         description: [
             { title: 'Component-based Navigation', text: 'Crafting an engaging and responsive user interface using React, which will allow users to view posts, sales, and communicate with other users seamlessly' },
             { title: 'Full-Stack Integration', text: 'Implementing a robust backend infrastructure with Node.js and Express which will integrate user authentication, CRUD functionality, and the use of MongoDB for data storage' },

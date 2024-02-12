@@ -29,7 +29,7 @@
     border: 1px solid white;
     position: absolute;
     top: -2.5rem;
-    left: 42%;
+    left: 43%;
 }
 
 .icon-image {
@@ -68,6 +68,12 @@
     }
 }
 
+@media (max-width: 868px) {
+    .project-icon {
+        left: 46%;
+    }
+}
+
 @media (max-width: 768px) {
     .project-name {
         font-size: 1.25rem;
@@ -76,5 +82,11 @@
     .in-development,
     .project-link {
         font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .project-icon {
+        left: 43%;
     }
 }

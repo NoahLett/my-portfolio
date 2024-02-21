@@ -14,7 +14,6 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
     <>
       <div className={`mobile-menu ${isOpen ? 'active' : ''}`} onClick={toggleMenu}>
         <div className='mobile-menu-container'>
-            <h1 className='mobilenav-title'>Noah Lett</h1>
             <ul>
                 <li>
                     <a className='menu-item' onClick={() => scrollToSection('home')}>Home</a>
